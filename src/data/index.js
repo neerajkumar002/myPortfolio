@@ -7,7 +7,7 @@ export const projectData = [
     description:
       "SanpShop is a modern ecommerce frontend built with React. This project includes a clean UI, responsive design, and features like product listing, search, cart, and more.",
     videoUrl: project1,
-    githubUrl: "https://github.com/yourusername/weather-app",
+    githubUrl: "https://github.com/neerajkumar002/SnapShop",
     liveUrl: "https://snapmyshop.netlify.app/",
   },
   {
