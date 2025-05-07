@@ -4,7 +4,7 @@ import Project from "./components/Project/Project";
 import Skills from "./components/Skills/Skills";
 import Experience from "./components/Experience/Experience";
 import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/footer";
+import FooterComponent from "./components/Footer component/FooterComponent";
 function App() {
   return (
     <div className="w-full min-h-screen bg-black text-white  ">
@@ -14,7 +14,7 @@ function App() {
       <Skills />
       <Experience />
       <Contact />
-      <Footer />
+      <FooterComponent />
     </div>
   );
 }
