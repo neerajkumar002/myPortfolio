@@ -3,18 +3,19 @@ import project2 from "../videos/project2.mp4";
 
 export const projectData = [
   {
-    title: "Weather App",
+    title: "SnapShop",
     description:
-      "A React app that shows weather info using the OpenWeatherMap API.",
+      "SanpShop is a modern ecommerce frontend built with React. This project includes a clean UI, responsive design, and features like product listing, search, cart, and more.",
     videoUrl: project1,
     githubUrl: "https://github.com/yourusername/weather-app",
-    liveUrl: "https://weatherapp.netlify.app",
+    liveUrl: "https://snapmyshop.netlify.app/",
   },
   {
-    title: "Todo List",
-    description: "A simple todo app with local storage and filtering features.",
+    title: "Cryptocurrency Price Tracker ",
+    description:
+      "CoinSky is a simple and fast cryptocurrency price tracker that allows users to view the real-time prices, market capitalization, and 24-hour trading volume of the top 10 cryptocurrencies",
     videoUrl: project2,
-    githubUrl: "https://github.com/yourusername/todo-app",
-    liveUrl: "https://todoapp.netlify.app",
+    githubUrl: "https://github.com/neerajkumar002/coinSky",
+    liveUrl: "https://coinsky.netlify.app/",
   },
 ];
