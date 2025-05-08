@@ -60,7 +60,7 @@ const About = () => {
           </p>
 
           <a
-            href="/resume.pdf"
+            href="../../doc/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             style={{ opacity: 1, willChange: "auto", transform: "none" }}
