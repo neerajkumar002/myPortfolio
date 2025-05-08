@@ -11,7 +11,7 @@ const Project = () => {
         backgroundRepeat: "repeat",
       }}
     >
-      <h2 className="lg:text-7xl bg-clip-text text-transparent bg-gradient-to-br from-neutral-50 to-neutral-400 font-semibold font-Montserrat leading-[1.5] px-8">
+      <h2 className="text-2xl lg:text-7xl bg-clip-text text-transparent bg-gradient-to-br from-neutral-50 to-neutral-400 font-semibold font-Montserrat leading-[1.5] px-8">
         Projects I've Worked on
       </h2>
       <div className="flex flex-col gap-6 mt-3 px-8 lg:flex-row ">

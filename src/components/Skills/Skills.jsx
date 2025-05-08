@@ -9,6 +9,7 @@ import vsCodeImage from "../../assets/Vs Code.svg";
 import expressImage from "../../assets/Express JS.svg";
 import mongoDbImage from "../../assets/MongoDB.svg";
 import Badge from "../Badge/Badge";
+import wordpressImage from "../../assets/wordpress.svg";
 
 const skills = [
   {
@@ -51,6 +52,10 @@ const skills = [
     image: mongoDbImage,
     title: "MongoDB",
   },
+  {
+    image: wordpressImage,
+    title: "Wordpress",
+  },
 ];
 
 const Skills = () => {
@@ -65,11 +70,11 @@ const Skills = () => {
       }}
     >
       <div>
-        <h2 className=" text-center lg:text-7xl font-Montserrat leading-[1.5] bg-clip-text text-transparent font-semibold bg-gradient-to-br from-neutral-50 to-neutral-400 ">
+        <h2 className=" text-center text-5xl lg:text-7xl font-Montserrat leading-[1.5] bg-clip-text text-transparent font-semibold bg-gradient-to-br from-neutral-50 to-neutral-400 ">
           TECH STACK
         </h2>
       </div>
-      <div className="flex flex-wrap gap-4 justify-center py-4">
+      <div className="flex flex-wrap gap-4 items-center justify-center py-4">
         {skills.map((item, index) => (
           <Badge key={index} image={item.image} title={item.title} />
         ))}
