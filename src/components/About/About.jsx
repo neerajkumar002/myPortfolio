@@ -1,3 +1,5 @@
+import reactSvg from "/public/react.svg";
+
 const About = () => {
   return (
     <section
@@ -42,8 +44,8 @@ const About = () => {
           <h2 className="font-bold lg:text-3xl tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-[#61dafb] to-[#ffe539] flex  items-center gap-2">
             <span>I dream in </span>
             <img
-              src="/public/react.svg"
-              alt=""
+              src={reactSvg}
+              alt="react"
               className="h-6 w-6 inline-block"
             />{" "}
             React and eat components for breakfast!
