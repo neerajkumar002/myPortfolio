@@ -51,14 +51,12 @@ const About = () => {
             React and eat components for breakfast!
           </h2>
           <p className="text-center font-light text-[#9b9b9b] text-xl mx-auto lg:w-[80%] font-montserrat">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-            doloribus fugit beatae sapiente exercitationem ipsa eligendi veniam
-            reiciendis harum? Quis, itaque voluptatum tenetur, veniam sequi
-            facere odio at aliquam porro sint et deleniti modi quasi culpa
-            eligendi. Totam asperiores expedita dignissimos, laborum nam
-            aspernatur quas quisquam delectus dolore maxime, perferendis quidem
-            repellat rerum vel at laboriosam ipsam itaque similique soluta error
-            cumque repellendus voluptas? Provident quas sit debitis.
+            I specialize in building high-performance, responsive, and visually
+            stunning web applications. With hands-on experience in JavaScript,
+            React, and Node.js, I create smooth and dynamic user experiences.
+            Whether it’s a custom website or a modern web application, I turn
+            ideas into reliable and scalable digital solutions with clean,
+            efficient code.
           </p>
 
           <a
